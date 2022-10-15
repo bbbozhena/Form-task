@@ -22,3 +22,17 @@ form {
 button {
     margin: 5%;
 }
+.windo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% 0%;
+    
+    p{
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+}
