@@ -1,8 +1,8 @@
 "use strict";
 
-const btn = document.getElementById("button");
-const emailInput = document.getElementById("exampleInputEmail1");
-const passwordInput = document.getElementById("exampleInputPassword1");
+const btn = document.getElementById("submit-button");
+const emailInput = document.getElementById("input-email");
+const passwordInput = document.getElementById("input-password");
 const form = document.getElementById("form-container");
 const element = document.createElement("div");
 const image =
@@ -23,7 +23,7 @@ function checkForm() {
   }
 }
 
-const buttonClick = btn.addEventListener("click", () => {
+const buttonSubmit = btn.addEventListener("click", () => {
   checkEmail(emailInput);
   return checkForm();
 });
@@ -35,9 +35,9 @@ function openConfirm() {
   );
 
   if (ask) {
-    document.body.innerHTML = `<div class="windo"> <p> Hello user with email: ${emailData} </p>
+    document.body.innerHTML = `<div class="confirm-true"> <p> Hello user with email: ${emailData} </p>
         ${image}
         </div>
         `;
-  }
+  } 
 }

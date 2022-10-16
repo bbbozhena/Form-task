@@ -14,22 +14,22 @@
         padding: 10px;
     }
 }
-form {
+.enter-form {
     padding: 50px;
     border: black solid 1px;
-    border-radius: 5%;
+    border-radius: 40px;
 }
-#button {
-    margin: 1%;
+#submit-button {
+    margin: 5px;
 }
-.windo{
+.confirm-true {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5% 0%;
-    
-    p{
+    margin: 70px 0px;
+
+    p {
         border: 1px solid black;
         border-radius: 20px;
         padding: 5px 10px;

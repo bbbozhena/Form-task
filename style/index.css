@@ -19,17 +19,17 @@
   padding: 10px;
 }
 
-form {
+.enter-form {
   padding: 50px;
   border: black solid 1px;
-  border-radius: 5%;
+  border-radius: 40px;
 }
 
-#button {
-  margin: 1%;
+#submit-button {
+  margin: 5px;
 }
 
-.windo {
+.confirm-true {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,10 +43,10 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 5% 0%;
+  margin: 70px 0px;
 }
 
-.windo p {
+.confirm-true p {
   border: 1px solid black;
   border-radius: 20px;
   padding: 5px 10px;
